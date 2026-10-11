@@ -1,29 +1,29 @@
-# Dependencies
-node_modules/
+# Build
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+.mvn/wrapper/maven-wrapper.jar
 
 # Environment variables
 .env
-.env.local
-.env.*.local
+.env.*
 
-# Build outputs
-.next/
-dist/
-build/
-
-# Test coverage
-coverage/
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.classpath
+.project
+.settings/
+.factorypath
 
 # Logs
 *.log
-npm-debug.log*
-pnpm-debug.log*
 
 # OS files
 .DS_Store
 Thumbs.db
-
-# IDE
-.vscode/*
-!.vscode/extensions.json
-!.vscode/settings.json

@@ -1,9 +1,0 @@
-{
-  "name": "booking-platform",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Professional booking platform monorepo",
-  "packageManager": "pnpm@11.21.0",
-  "type": "module",
-  "scripts": {}
-}
